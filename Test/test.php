@@ -1,3 +1,4 @@
 <?php
-  echo "Hello,Alexander!";
+  require 'include/model.php';
+  echo "Hello, ". Message('Alexander');
 ?>
